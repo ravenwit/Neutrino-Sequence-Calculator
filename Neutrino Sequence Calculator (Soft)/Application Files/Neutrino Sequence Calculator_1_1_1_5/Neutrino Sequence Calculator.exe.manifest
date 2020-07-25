@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Neutrino Sequence Calculator.exe" version="1.1.1.5" publicKeyToken="4a72805836f07db0" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="47.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Neutrino Sequence Calculator" version="1.1.1.3" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Neutrino Sequence Calculator.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" ID="Custom" SameSite="site" Unrestricted="true" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="ComponentFactory.Krypton.Toolkit" version="4.3.2.0" publicKeyToken="A87E673E9ECB6E8E" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Neutrino Sequence Calculator.exe" size="89600">
+      <assemblyIdentity name="Neutrino Sequence Calculator" version="1.1.1.3" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>ERch/PrT/PxgOdasLZB+lpRgfNo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="47.ico" size="30894">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>dV33Wl7liwh4n4ycvsmUo2OpwRE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=Platinum\Shakir" issuerKeyHash="796fa13ecdb285a2da0c864d204ddd4a1d78634b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>bwOZJNasF7xBykRCRCNSueTk/Fw=</DigestValue></Reference></SignedInfo><SignatureValue>ZlN4g604fuSLz2SIJ4bL2SkjWIze3Um2sqSAfoz+rMe/2RxC1tthvviI57litAQOQpxaN4imrWmDJJeVL1uFfVlXZEXqCQcGFNzXRcTUlsOK0yNoEQdapL5aGNxsJIm9gkAC0o4jDXt2/XMPgRkFnScFWn/Y88UHdRU+oTP6wGI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rh/vPgtTwNdnbXZKj4vg2xk2WpwMg+JntzDEOobsf6ZnbFQqRGLQOtOhArspjoNSKveuYQzwE9Ia+gdBAUhZOrgKuRxZJ8lMP4fQMOcxCrYynxpdXBxoKA1f1nHtUTfAE/S3HCd1N2C5nI455AeeYK5XWdgjf21760ZC6Ee/szk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5cfce4e4b95223444244ca41bc17acd62499036f" Description="" Url=""><as:assemblyIdentity name="Neutrino Sequence Calculator.exe" version="1.1.1.5" publicKeyToken="4a72805836f07db0" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Platinum\Shakir</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>o8RJyWh2hKexYKClXFdIVpb0Vp0=</DigestValue></Reference></SignedInfo><SignatureValue>X2Z7Q7tF+lFQvFaBMdlap/wOaTLXClXrkPRJTPjQ7JZZTHCT3Mx4YBW/JfIY60qZ82F3hNEiyUTr4EwwZsm8iQYevcI81yoL60mrnIBDZjIuFYI2vjybjaITHJ2B6AJBBu2XmKNDq5qWLL3v1XuPxDnqKJb7zbLgI5a3Ce2ij4E=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rh/vPgtTwNdnbXZKj4vg2xk2WpwMg+JntzDEOobsf6ZnbFQqRGLQOtOhArspjoNSKveuYQzwE9Ia+gdBAUhZOrgKuRxZJ8lMP4fQMOcxCrYynxpdXBxoKA1f1nHtUTfAE/S3HCd1N2C5nI455AeeYK5XWdgjf21760ZC6Ee/szk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQWRjE64hGnqRLtGA+iTlzDzANBgkqhkiG9w0BAQUFADApMScwJQYDVQQDHh4AUABsAGEAdABpAG4AdQBtAFwAUwBoAGEAawBpAHIwHhcNMTIwNjMwMjAzOTEzWhcNMTMwNzAxMDIzOTEzWjApMScwJQYDVQQDHh4AUABsAGEAdABpAG4AdQBtAFwAUwBoAGEAawBpAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAK4f7z4LU8DXZ212So+L4NsZNlqcDIPiZ7cwxDqG7H+mZ2xUKkRi0DrToQK7KY6DUir3rmEM8BPSGvoHQQFIWTq4CrkcWSfJTD+H0DDnMQq2Mp8aXVwcaCgNX9Zx7VE3wBP0txwndTdguZyOOeQHnmCuV1nYI39te+tGQuhHv7M5AgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAle7yEA3xb9wnok7hZSHPtcAqrdGLNzffLWu5Pvd+e4koK2K2CPpTeLKlgKML+nNqdAUm9qRBj1gZAjhfy4AYD8PXri3uOGvw97P1ZyHS5jpVEtPfOimp7m85RS5+en+4EwmjSnlemCvDTo/AG/V5LEP9LwYFdRM6+Hi5nBP0+nY=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

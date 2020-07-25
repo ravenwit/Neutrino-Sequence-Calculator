@@ -1,0 +1,15 @@
+F:\Harry Potter\All Project\MS Visual Basic 10.00 Project\Neutrino Sequence Calculator\Neutrino Sequence Calculator\bin\Debug\Neutrino Sequence Calculator.exe
+F:\Harry Potter\All Project\MS Visual Basic 10.00 Project\Neutrino Sequence Calculator\Neutrino Sequence Calculator\bin\Debug\Neutrino Sequence Calculator.pdb
+F:\Harry Potter\All Project\MS Visual Basic 10.00 Project\Neutrino Sequence Calculator\Neutrino Sequence Calculator\bin\Debug\Neutrino Sequence Calculator.xml
+F:\Harry Potter\All Project\MS Visual Basic 10.00 Project\Neutrino Sequence Calculator\Neutrino Sequence Calculator\obj\Debug\Neutrino Sequence Calculator.vbprojResolveAssemblyReference.cache
+F:\Harry Potter\All Project\MS Visual Basic 10.00 Project\Neutrino Sequence Calculator\Neutrino Sequence Calculator\obj\Debug\Neutrino_Sequence_Calculator.Form1.resources
+F:\Harry Potter\All Project\MS Visual Basic 10.00 Project\Neutrino Sequence Calculator\Neutrino Sequence Calculator\obj\Debug\Neutrino_Sequence_Calculator.Resources.resources
+F:\Harry Potter\All Project\MS Visual Basic 10.00 Project\Neutrino Sequence Calculator\Neutrino Sequence Calculator\obj\Debug\Neutrino Sequence Calculator.vbproj.GenerateResource.Cache
+F:\Harry Potter\All Project\MS Visual Basic 10.00 Project\Neutrino Sequence Calculator\Neutrino Sequence Calculator\obj\Debug\Neutrino Sequence Calculator.exe
+F:\Harry Potter\All Project\MS Visual Basic 10.00 Project\Neutrino Sequence Calculator\Neutrino Sequence Calculator\obj\Debug\Neutrino Sequence Calculator.xml
+F:\Harry Potter\All Project\MS Visual Basic 10.00 Project\Neutrino Sequence Calculator\Neutrino Sequence Calculator\obj\Debug\Neutrino Sequence Calculator.pdb
+F:\Harry Potter\All Project\MS Visual Basic 10.00 Project\Neutrino Sequence Calculator\Neutrino Sequence Calculator\bin\Debug\Neutrino Sequence Calculator.exe.manifest
+F:\Harry Potter\All Project\MS Visual Basic 10.00 Project\Neutrino Sequence Calculator\Neutrino Sequence Calculator\bin\Debug\Neutrino Sequence Calculator.application
+F:\Harry Potter\All Project\MS Visual Basic 10.00 Project\Neutrino Sequence Calculator\Neutrino Sequence Calculator\obj\Debug\Neutrino Sequence Calculator.TrustInfo.xml
+F:\Harry Potter\All Project\MS Visual Basic 10.00 Project\Neutrino Sequence Calculator\Neutrino Sequence Calculator\obj\Debug\Neutrino Sequence Calculator.exe.manifest
+F:\Harry Potter\All Project\MS Visual Basic 10.00 Project\Neutrino Sequence Calculator\Neutrino Sequence Calculator\obj\Debug\Neutrino Sequence Calculator.application

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Neutrino.exe" version="2.3.3.8" publicKeyToken="f872f83c414499d0" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="Neutrino.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Neutrino" version="2.3.7.7" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Neutrino.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Neutrino.exe" size="525312">
+      <assemblyIdentity name="Neutrino" version="2.3.7.7" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>+gN6csZkjKcyBe7XiJBntddk1/w=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="charms-nu-greek-alphabet-laser-charm-25569.ico" size="137147">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Px94O+iycYiaWEZikStoF/YgE8g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Neutrino.exe.config" size="2880">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>LmI7QvT/6GEW2iBfuoivLSDe2NY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Neutrino.ico" size="147185">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>tMNyXMN0q1VsWEHVbWS0EuA3bXg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=Platinum\Shakir" issuerKeyHash="1559bf9dd4b080f965f672e96632a88209ee7ca8" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>YAAamOfnYM9MNLRokDvUZbRlSKU=</DigestValue></Reference></SignedInfo><SignatureValue>JZHYQ5wZE7KeT9Y1/kcrmikjCKasN/uPDBwnlqpHEblL90yhJTS9qoUDnBMzhizuQAfCvL42iqfuebCC7wJtyh3t9KgF9xXQPDSWr+LamFlwIuKNacBpwd/8aX+JpSdIRcEgL1blbA42RD4GxVI8J17pHI3wBQlIHiJ/2McJ2Qg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>myDJ839z3LKS2XTI776FzxlSg56Q3MtewHuqbSmf13dd1ZozwRgknPWi2HxxN9u0i6gOa++8vrX9UCMhQ/XBHSlDhOWBVs+zzjoIWbL5Z68741IYE8dcVn1WqXWf/Te3qP+VM2qB5KnmvtD16ZezKGqEJ8kSgU2+s14mz2ZpZ/c=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a54865b465d43b9068b4344ccf60e7e7981a0060" Description="" Url=""><as:assemblyIdentity name="Neutrino.exe" version="2.3.3.8" publicKeyToken="f872f83c414499d0" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Platinum\Shakir</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>QbDET3Hjd++eqCEcWsAzkAq2+rI=</DigestValue></Reference></SignedInfo><SignatureValue>eUNdpz3eRCKqJF60+4NqlPLkvYyfgXXq62ztCNVQBUi4S/Spb697cQP6+Gz+FfvGRqos6BZqny+IA8TqILwcOXkxXZDV/YYueUcgf0tYLAsPu4MNMc4GzaT5nmdtxZQwlSJ+Q+pEawvMkfJA1u5U5nMkx9OfIiZqc2FdEGOPojs=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>myDJ839z3LKS2XTI776FzxlSg56Q3MtewHuqbSmf13dd1ZozwRgknPWi2HxxN9u0i6gOa++8vrX9UCMhQ/XBHSlDhOWBVs+zzjoIWbL5Z68741IYE8dcVn1WqXWf/Te3qP+VM2qB5KnmvtD16ZezKGqEJ8kSgU2+s14mz2ZpZ/c=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQSy3edCiyp65E4GOh+ADAwDANBgkqhkiG9w0BAQUFADApMScwJQYDVQQDHh4AUABsAGEAdABpAG4AdQBtAFwAUwBoAGEAawBpAHIwHhcNMTExMDE1MTk1MDA2WhcNMTIxMDE1MDE1MDA2WjApMScwJQYDVQQDHh4AUABsAGEAdABpAG4AdQBtAFwAUwBoAGEAawBpAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJsgyfN/c9yyktl0yO++hc8ZUoOekNzLXsB7qm0pn9d3XdWaM8EYJJz1oth8cTfbtIuoDmvvvL61/VAjIUP1wR0pQ4TlgVbPs846CFmy+WevO+NSGBPHXFZ9Vql1n/03t6j/lTNqgeSp5r7Q9emXsyhqhCfJEoFNvrNeJs9maWf3AgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAOccezfWtFq6albj9wBbNX00m3c8MU9qSHsbNvkSSVm1VGaydATCuqCuHgKC1hAXxSd0usR/H8iODzIV/nXNyGDGm8Zs5a34+4GXHcup0WfriDs2+NUw34ltE08bodl20b/i6CRVg/HNvxC7oY5mtZJu6Ap78ZTyJqfhCU7O75O0=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
